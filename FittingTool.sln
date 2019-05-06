@@ -1,13 +1,19 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
-VisualStudioVersion = 12.0.31101.0
+VisualStudioVersion = 12.0.40629.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "FittingCircles", "FittingCircles\FittingCircles.vcxproj", "{E191B702-B8F2-4524-9BD2-C90880946C83}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TestAlgebraicCircleFits", "TestAlgebraicCircleFits\TestAlgebraicCircleFits.vcxproj", "{773674CE-4D8B-4073-877C-E85A9FD9933E}"
+	ProjectSection(ProjectDependencies) = postProject
+		{E191B702-B8F2-4524-9BD2-C90880946C83} = {E191B702-B8F2-4524-9BD2-C90880946C83}
+	EndProjectSection
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TestGeometricCircleFits", "TestGeometricCircleFits\TestGeometricCircleFits.vcxproj", "{BF227AD4-4D79-4493-9C4E-16950D141DFA}"
+	ProjectSection(ProjectDependencies) = postProject
+		{E191B702-B8F2-4524-9BD2-C90880946C83} = {E191B702-B8F2-4524-9BD2-C90880946C83}
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
